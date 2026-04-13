@@ -1,4 +1,4 @@
-# 🚀 Pokedex - Despliegue en Azure
+# Pokedex - Despliegue en Azure
 
 ## Información del Proyecto
 * **Clase:** Sistemas Distribuidos
@@ -9,7 +9,7 @@
 
 ---
 
-## ☁️ Creación de Cuenta en Azure for Students
+## Creación de Cuenta en Azure for Students
 
 ### Requisitos previos
 * Correo institucional activo (ej: fulanito@tecnocomfenalco.edu.co)
@@ -40,5 +40,5 @@
 * Al entrar al portal, se observan servicios disponibles para desarrollo como Static Web Apps, App Services, Máquinas Virtuales y Bases de Datos.
 * Verificación exitosa de que la suscripción "Azure for Students" se encuentra completamente activa y lista para usar.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzg3MjIyODgsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbLTE2NDg5OTA0NDEsLTMzMjQ1NTM2M119
 -->
