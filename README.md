@@ -35,6 +35,5 @@ Pasos
   - URL de acceso al portal: https://portal.azure.com
 
 4: Primer acceso al portal
-- Describir qué servicios viste disponibles al entrar]
+- Describir qué servicios viste disponibles al entrar  
 - Verificación de que la suscripción está activa
-- 
