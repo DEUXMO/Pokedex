@@ -1,11 +1,11 @@
 # Pokedex - Despliegue en Azure
 
 ## Información del Proyecto
-* **Clase:** Sistemas Distribuidos
-* **Compañía:** Pueblo Paleta Inc.
-* **Desarrollador:** Andrés Camilo Navarro Bello
-* **Repositorio:** https://github.com/DEUXMO/Pokedex
-* **Fecha:** 12/04/2026
+* Clase: Sistemas Distribuidos
+* Compañía: Pueblo Paleta Inc.
+* Desarrollador: Andrés Camilo Navarro Bello
+* Repositorio:https://github.com/DEUXMO/Pokedex
+* Fecha: 12/04/2026
 
 ---
 
@@ -40,5 +40,6 @@
 * Al entrar al portal, se observan servicios disponibles para desarrollo como Static Web Apps, App Services, Máquinas Virtuales y Bases de Datos.
 * Verificación exitosa de que la suscripción "Azure for Students" se encuentra completamente activa y lista para usar.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDg5OTA0NDEsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbLTE2MzAyNzY4MTksLTE2NDg5OTA0NDEsLT
+MzMjQ1NTM2M119
 -->
