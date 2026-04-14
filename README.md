@@ -1,44 +1,36 @@
-# Pokedex - Despliegue en Azure
+# Pokédex Angular
 
-## Información del Proyecto
-* Clase: Sistemas Distribuidos
-* Compañía: Pueblo Paleta Inc.
-* Desarrollador: Andrés Camilo Navarro Bello
-* Repositorio:https://github.com/DEUXMO/Pokedex
-* Fecha: 12/04/2026
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![codecov](https://codecov.io/gh/keilermora/pokedex-angular/branch/master/graph/badge.svg?token=9E0D28IOFT)](https://codecov.io/gh/keilermora/pokedex-angular)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
----
+[https://keilermora.github.io/pokedex-angular/](https://keilermora.github.io/pokedex-angular/)
 
-## Creación de Cuenta en Azure for Students
+La aplicación muestra el listado y el detalle de los Pokémon de las primeras 3 generaciones.
 
-### Requisitos previos
-* Correo institucional activo (ej: fulanito@tecnocomfenalco.edu.co)
-* Acceso a portal de estudiantes de la universidad
+La imagen que representa un Pokémon en el listado muestra las variaciones que estos tuvieron durante las primeras versiones, desde la versión Green (1996) hasta la version Emerald (2005).
 
-### Pasos
-### 1. Acceso al programa
-1. Ingresar a la página de [Azure for Students](https://azure.microsoft.com/es-es/free/students).
-2. Click en el botón "Start free" o "Empezar gratis".
-3. Seleccionar la opción de verificación con el correo institucional.
+Los detalles de un Pokémon individual muestra sus estadísticas base y los registros de la Pokédex de las diferentes versiones.
 
-### 2. Verificación de identidad
-* Proceso de validación:
-  1. Ingreso de nombre y apellido según registros escolares.
-  2. Selección de país de la institución.
-  3. Ingreso de nombre de la escuela (campo de texto libre).
-  4. Fecha de nacimiento según registros oficiales.
-  5. Confirmación de dirección de correo electrónico institucional.
-  6. Resultado: Verificación completada exitosamente.
-        
-### 3. Activación de suscripción
-* Nos refleja el nombre de la suscripción creada, ej: "Azure for Students".
-* Créditos disponibles: $100 USD.
-* URL de acceso al portal: [Portal de Azure](https://portal.azure.com).
+El proyecto fue desarrollado usando la librería de JavaScript [Angular](https://angular.io/) para crear la interfaz de usuario, en comunicación con la Api RESTful [PokéAPI](https://pokeapi.co/).
 
-**4. Primer acceso al portal**
-* Al entrar al portal, se observan servicios disponibles para desarrollo como Static Web Apps, App Services, Máquinas Virtuales y Bases de Datos.
-* Verificación exitosa de que la suscripción "Azure for Students" se encuentra completamente activa y lista para usar.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MDk4MzI4LC0xNjQ4OTkwNDQxLC0zMz
-I0NTUzNjNdfQ==
--->
+## Requisitos mínimos
+
+- [Nodejs](https://nodejs.org) con soporte de largo plazo (LTS).
+- Un navegador web
+
+## Ambiente de pruebas
+
+Ejecutar en la raíz del proyecto:
+
+```
+npm start
+```
+
+## Referencias
+
+- [Angular](https://angular.io/): One framework.
+- [Angular Folder Structure](https://angular-folder-structure.readthedocs.io/en/latest/): Create a skeleton structure which is flexible for projects big or small.
+- [Font Awesome](https://fontawesome.com/): The web's most popular icon set and toolkit.
+- [Normalize.css](https://necolas.github.io/normalize.css/): A modern, HTML5-ready alternative to CSS resets.
+- [PokéAPI](https://pokeapi.co/): The RESTful Pokémon API.
