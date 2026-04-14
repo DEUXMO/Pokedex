@@ -16,14 +16,13 @@
 * Acceso a portal de estudiantes de la universidad
 
 ### Pasos
-
-**1. Acceso al programa**
+### 1. Acceso al programa
 1. Ingresar a la página de [Azure for Students](https://azure.microsoft.com/es-es/free/students).
 2. Click en el botón "Start free" o "Empezar gratis".
 3. Seleccionar la opción de verificación con el correo institucional.
 
-**2. Verificación de identidad**
-* **Proceso de validación:**
+### 2. Verificación de identidad
+* Proceso de validación:
   1. Ingreso de nombre y apellido según registros escolares.
   2. Selección de país de la institución.
   3. Ingreso de nombre de la escuela (campo de texto libre).
@@ -31,7 +30,7 @@
   5. Confirmación de dirección de correo electrónico institucional.
   6. Resultado: Verificación completada exitosamente.
         
-**3. Activación de suscripción**
+### 3. Activación de suscripción
 * Nos refleja el nombre de la suscripción creada, ej: "Azure for Students".
 * Créditos disponibles: $100 USD.
 * URL de acceso al portal: [Portal de Azure](https://portal.azure.com).
@@ -40,6 +39,6 @@
 * Al entrar al portal, se observan servicios disponibles para desarrollo como Static Web Apps, App Services, Máquinas Virtuales y Bases de Datos.
 * Verificación exitosa de que la suscripción "Azure for Students" se encuentra completamente activa y lista para usar.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzAyNzY4MTksLTE2NDg5OTA0NDEsLT
-MzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbLTU4MDk4MzI4LC0xNjQ4OTkwNDQxLC0zMz
+I0NTUzNjNdfQ==
 -->
