@@ -1,110 +1,146 @@
-Proceso Técnico de Despliegue
+# Welcome to StackEdit!
 
-Información General
-- Servicio: Azure Static Web Apps
-- Método: Despliegue desde GitHub
-- Fecha de despliegue: 12/04/2026}
-
-----
-
-Paso 1: Preparar el código fuente en el repositorio  
-
-pokedex/  
-├── index.html -> (página principal)  
-├── css/   
-│  └── styles.css -> (estilos de la aplicación)  
-├── js/  
-│ └── app.js -> (lógica de la aplicación)  
-└── assets/ -> (imágenes, fuentes, etc.)  
+Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
 
 
-Acciones realizadas:  
-  1. Crear archivos HTML, CSS y JS de la aplicación PokeDex  
-  2. Subir archivos al repositorio GitHub  
-  3. Verificar que `index.html` esté en la raíz del repositorio  
+# Files
 
----
-Paso 2: Crear recurso en Azure Portal
+StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
-  2.1 Acceso al portal  
-    - URL: https://portal.azure.com  
-    - Iniciar sesión con cuenta verificada de Azure for Students  
-    
-  2.2 Crear Static Web App  
-    1. Click en "Create a resource" (+)  
-    2. Buscar: "Static Web App"  
-    3. Click en "Create"  
+## Create files and folders
 
-  2.3 Configuración básica:
-  | Campo | Valor |
-  |:---|:---|
-  | Subscription | Azure for Students |
-  | Resource Group | Crear nuevo: `rg-pokedex` |
-  | Name | `pokedex-app` |
-  | Region | East US 2 (o la más cercana) |
-  | Plan | Free |
+The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
 
-  2.4 Configuración de GitHub:
-  | Campo | Valor |
-  |:---|:---|
-  | Source | GitHub |
-  | Organization | DEUXMO |
-  | Repository | Pokedex |
-  | Branch | main |
+## Switch to another file
 
-  2.5 Configuración de build:
-  | Campo | Valor |
-  |:---|:---|
-  | Build Presets | Custom |
-  | App location | `/` (raíz del repositorio) |
-  | Output location | (dejar vacío para HTML estático) |
+All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
 
----
+## Rename a file
 
-Paso 3: Desplegar aplicación
+You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
 
-  3.1 Revisar y crear  
-    1. Click en "Review + create"  
-    2. Validar configuración  
-    3. Click en "Create"  
+## Delete a file
 
-  3.2 Esperar despliegue  
-    - Tiempo estimado: 2-5 minutos  
-    - Azure creará automáticamente:  
-      - Static Web App resource  
-      - GitHub Actions workflow (archivo `.github/workflows/azure-static-web-apps-*.yml`)
+You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
 
----
+## Export a file
 
-Paso 4: Obtener URL pública
+You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
 
-  4.1 Verificar despliegue exitoso  
-    1. Ir a recurso creado en Azure Portal  
-    2. Sección "Overview"  
-    3. Copiar URL generada: `https://[nombre-aleatorio].azurestaticapps.net`  
-  
-  4.2 Validar funcionamiento  
-    - Abrir URL en navegador  
-    - Verificar que la PokeDex carga correctamente  
-    - Revisar consola del navegador (F12) por errores  
 
----
+# Synchronization
 
- Posibles errores y soluciones
+Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
 
-| Error | Causa | Solución |
-|:---|:---|:---|
-| 404 en página principal | `index.html` no está en raíz | Mover archivo a raíz del repo |
-| Build falla en GitHub Actions | Estructura incorrecta | Revisar `app_location` en configuración |
-| Recursos no cargan (CSS/JS) | Rutas relativas incorrectas | Usar rutas `./css/styles.css` |
-| HTTPS no activo | Configuración de dominio | Azure Static Web Apps incluye HTTPS por defecto |
+There are two types of synchronization and they can complement each other:
 
----
+- The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
+	> To start syncing your workspace, just sign in with Google in the menu.
 
-Validaciones post-despliegue
+- The file synchronization will keep one file of the workspace synced with one or multiple files in **Google Drive**, **Dropbox** or **GitHub**.
+	> Before starting to sync files, you must link an account in the **Synchronize** sub-menu.
 
-- [ ] Aplicación accesible desde URL pública
-- [ ] Sin errores 404/500
-- [ ] Sin errores en consola del navegador
-- [ ] HTTPS activo
-- [ ] Escaneo en securityheaders.com realizado
+## Open a file
+
+You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Open from**. Once opened in the workspace, any modification in the file will be automatically synced.
+
+## Save a file
+
+You can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
+
+## Synchronize a file
+
+Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.
+
+If you just have modified your file and you want to force syncing, click the **Synchronize now** button in the navigation bar.
+
+> **Note:** The **Synchronize now** button is disabled if you have no file to synchronize.
+
+## Manage file synchronization
+
+Since one file can be synced with multiple locations, you can list and manage synchronized locations by clicking **File synchronization** in the **Synchronize** sub-menu. This allows you to list and remove synchronized locations that are linked to your file.
+
+
+# Publication
+
+Publishing in StackEdit makes it simple for you to publish online your files. Once you're happy with a file, you can publish it to different hosting platforms like **Blogger**, **Dropbox**, **Gist**, **GitHub**, **Google Drive**, **WordPress** and **Zendesk**. With [Handlebars templates](http://handlebarsjs.com/), you have full control over what you export.
+
+> Before starting to publish, you must link an account in the **Publish** sub-menu.
+
+## Publish a File
+
+You can publish your file by opening the **Publish** sub-menu and by clicking **Publish to**. For some locations, you can choose between the following formats:
+
+- Markdown: publish the Markdown text on a website that can interpret it (**GitHub** for instance),
+- HTML: publish the file converted to HTML via a Handlebars template (on a blog for example).
+
+## Update a publication
+
+After publishing, StackEdit keeps your file linked to that publication which makes it easy for you to re-publish it. Once you have modified your file and you want to update your publication, click on the **Publish now** button in the navigation bar.
+
+> **Note:** The **Publish now** button is disabled if your file has not been published yet.
+
+## Manage file publication
+
+Since one file can be published to multiple locations, you can list and manage publish locations by clicking **File publication** in the **Publish** sub-menu. This allows you to list and remove publication locations that are linked to your file.
+
+
+# Markdown extensions
+
+StackEdit extends the standard Markdown syntax by adding extra **Markdown extensions**, providing you with some nice features.
+
+> **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
+
+
+## SmartyPants
+
+SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
+
+|                |ASCII                          |HTML                         |
+|----------------|-------------------------------|-----------------------------|
+|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
+|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
+|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+
+
+## KaTeX
+
+You can render LaTeX mathematical expressions using [KaTeX](https://khan.github.io/KaTeX/):
+
+The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
+
+$$
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+$$
+
+> You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
+
+
+## UML diagrams
+
+You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
+
+```mermaid
+sequenceDiagram
+Alice ->> Bob: Hello Bob, how are you?
+Bob-->>John: How about you John?
+Bob--x Alice: I am good thanks!
+Bob-x John: I am good thanks!
+Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+
+Bob-->Alice: Checking with John...
+Alice->John: Yes... John, how are you?
+```
+
+And this will produce a flow chart:
+
+```mermaid
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTMzMjQ1NTM2M119
+-->
