@@ -89,35 +89,35 @@ Nota: Esto generó la carpeta dist/pokedex-angular/ con los archivos estáticos 
 
 ### 3.1 Archivo  `staticwebapp.config.json`
 
-Creado en la raíz del repositorio para habilitar routing SPA y headers de seguridad:
+Creado en la raíz del repositorio para habilitar routing SPA y headers de seguridad:  
 `
-{
-  "navigationFallback": {
-    "rewrite": "/index.html",
-    "exclude": [
-      "/assets/*",
-      "/*.css",
-      "/*.js",
-      "/*.png",
-      "/*.jpg",
-      "/*.jpeg",
-      "/*.gif",
-      "/*.svg",
-      "/*.ico",
-      "/*.woff",
-      "/*.woff2",
-      "/*.ttf"
-    ]
-  },
-  "globalHeaders": {
-    "X-Content-Type-Options": "nosniff",
-    "X-Frame-Options": "DENY",
-    "Referrer-Policy": "no-referrer",
-    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
-    "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
-    "Content-Security-Policy": "default-src 'self' https:; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' https: data:; font-src 'self' https: data:; connect-src 'self' https://pokeapi.co https://*.pokeapi.co; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
-  }
-}
+{  
+  "navigationFallback": {  
+    "rewrite": "/index.html",  
+    "exclude": [  
+      "/assets/*",  
+      "/*.css",  
+      "/*.js",  
+      "/*.png",  
+      "/*.jpg",  
+      "/*.jpeg",  
+      "/*.gif",  
+      "/*.svg",  
+      "/*.ico",  
+      "/*.woff",  
+      "/*.woff2",  
+      "/*.ttf"  
+    ]  
+  },  
+  "globalHeaders": {  
+    "X-Content-Type-Options": "nosniff",  
+    "X-Frame-Options": "DENY",  
+    "Referrer-Policy": "no-referrer",  
+    "Strict-Transport-Security": "max-age=31536000;   includeSubDomains; preload",  
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=  ()",  
+    "Content-Security-Policy": "default-src 'self' https:; script-  src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline'   https:; img-src 'self' https: data:; font-src 'self' https: data:;   connect-src 'self' https://pokeapi.co https://*.pokeapi.co; object-  src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action   'self'; upgrade-insecure-requests"  
+  }  
+}  
 `
 
 ### 3.2 Propósito de cada header:
@@ -210,7 +210,7 @@ Azure creó automáticamente el archivo `.github/workflows/azure-static-web-apps
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNDgyMDY4NiwyMDM4NzI4OTYyLDIwMz
-g3Mjg5NjIsLTgyOTAzODU4NCwtMTczNTQwMjg1NywtMzMyNDU1
-MzYzXX0=
+eyJoaXN0b3J5IjpbMTEzMjQ5MTAyMiwxNjE0ODIwNjg2LDIwMz
+g3Mjg5NjIsMjAzODcyODk2MiwtODI5MDM4NTg0LC0xNzM1NDAy
+ODU3LC0zMzI0NTUzNjNdfQ==
 -->
