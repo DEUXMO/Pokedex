@@ -43,9 +43,9 @@ Microsoft requirió completar un formulario de verificación con los siguientes 
 5. Verificación de dirección de correo electrónico institucional
 
 **Resultado de la verificación:**
-- ✅ Estado: **Verificación completada exitosamente**
-- 🆔 ID de verificación: `20918a5ba39784c77-0537297201`
-- ⏱️ Tiempo de proceso: Inmediato (dominio reconocido automáticamente)
+- Estado: **Verificación completada exitosamente**
+- ID de verificación: `sd1bb1sdbe4q489`
+- Tiempo de proceso: Inmediato (dominio reconocido automáticamente)
 
 ---
 
@@ -98,26 +98,13 @@ Microsoft requirió completar un formulario de verificación con los siguientes 
 
 ---
 
-## 📋 Resumen del proceso de creación
-
-| Etapa | Duración | Estado |
-|:---|:---|:---|
-| Verificación de elegibilidad | 2 minutos | ✅ Completado |
-| Registro en Azure for Students | 5 minutos | ✅ Completado |
-| Verificación académica | 3 minutos | ✅ Completado |
-| Activación de suscripción | 1 minuto | ✅ Completado |
-| Primer acceso al portal | Inmediato | ✅ Completado |
-| **Total del proceso** | **~11 minutos** | **✅ Éxito** |
-
----
-
-## 🔗 Enlaces importantes
+## Enlaces importantes
 
 - **Portal de Azure:** https://portal.azure.com
 - **Azure for Students:** https://azure.microsoft.com/es-es/free/students
 - **Estado de suscripción:** Panel de Azure → Suscripciones
 - **Documentación:** https://docs.microsoft.com/azure/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNTUxNDY2NiwtMjA4ODc0NjYxMiw5Nz
-AyMTI5NjNdfQ==
+eyJoaXN0b3J5IjpbMTAyNjEyNTUyLC0yMDg4NzQ2NjEyLDk3MD
+IxMjk2M119
 -->
