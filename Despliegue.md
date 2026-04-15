@@ -22,7 +22,7 @@ npm install
 # Compilar para producción
 npm run build
 
-# 
+# Estructura 
 dist/pokedex-angular/
 ├── index.html              (página principal)
 ├── main.*.js              (código JavaScript compilado)
@@ -34,5 +34,6 @@ dist/pokedex-angular/
 │   └── img/
 └── 3rdpartylicenses.txt   (licencias de terceros)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzU0MDI4NTcsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbODQ0ODk1MDM1LC0xNzM1NDAyODU3LC0zMz
+I0NTUzNjNdfQ==
 -->
