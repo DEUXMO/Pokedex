@@ -1,14 +1,14 @@
 {
   "navigationFallback": {
-    "rewrite": "/index.html"
+    "rewrite": "/index.html",
+    "exclude": ["/assets/*", "/*.js", "/*.css", "/*.png", "/*.jpg", "/*.ico", "/*.ttf"]
   },
   "globalHeaders": {
-    "Content-Security-Policy": "default-src 'self'; img-src 'self' https: data: blob:; script-src 'self' https:; style-src 'self' https: 'unsafe-inline'; font-src 'self' https: data:; connect-src 'self' https: data:; frame-src 'self' https:; upgrade-insecure-requests;",
-    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+    "Content-Security-Policy": "default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self'; img-src 'self' https://raw.githubusercontent.com https://pokeapi.co data:; font-src 'self' https://fonts.gstatic.com data:; connect-src 'self' https://pokeapi.co;",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "DENY",
-    "X-XSS-Protection": "1; mode=block",
     "Referrer-Policy": "no-referrer",
-    "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+    "Permissions-Policy": "geolocation=(), microphone=(), camera=()"
   }
 }
