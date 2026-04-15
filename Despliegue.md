@@ -91,7 +91,7 @@ Nota: Esto generó la carpeta dist/pokedex-angular/ con los archivos estáticos 
 
 Creado en la raíz del repositorio para habilitar routing SPA y headers de seguridad:  
 `
-{  
+{ 
   "navigationFallback": {  
     "rewrite": "/index.html",  
     "exclude": [  
@@ -210,7 +210,7 @@ Azure creó automáticamente el archivo `.github/workflows/azure-static-web-apps
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjQ5MTAyMiwxNjE0ODIwNjg2LDIwMz
+eyJoaXN0b3J5IjpbMjAzNzkzNzY4MCwxNjE0ODIwNjg2LDIwMz
 g3Mjg5NjIsMjAzODcyODk2MiwtODI5MDM4NTg0LC0xNzM1NDAy
 ODU3LC0zMzI0NTUzNjNdfQ==
 -->
