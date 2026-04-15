@@ -33,13 +33,11 @@ Pokedex/
 
 ### Compilación automática
 Azure Static Web Apps detectó automáticamente que es un proyecto Angular y ejecutó:
-```bash
+
+
 npm install
 npm run build
-Nota Esto generó la carpeta `dist/pokedex-angular/` con los archivos estáticos compilados.
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTQ3NjU0MiwtMTczNTQwMjg1NywtMz
+eyJoaXN0b3J5IjpbMTg5ODc4MDg0MCwtMTczNTQwMjg1NywtMz
 MyNDU1MzYzXX0=
 -->
