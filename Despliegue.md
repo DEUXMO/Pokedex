@@ -61,7 +61,7 @@ Nota: Esto generó la carpeta dist/pokedex-angular/ con los archivos estáticos 
 
 ### 2.3 Configuración básica:
 
-| Campo          | Valor              |
+|  Campo         | Valor              |
 | :------------- | :----------------- |
 | Subscription   | Azure for Students |
 | Resource Group | arp-group          |
@@ -69,7 +69,28 @@ Nota: Esto generó la carpeta dist/pokedex-angular/ con los archivos estáticos 
 | Region         | westeurope         |
 | Plan           | Free               |
 
+### 2.4 Configuración de GitHub:
+
+| Campo        | Valor   |
+| :----------- | :------ |
+| Source       | GitHub  |
+| Organization | DEUXMO  |
+| Repository   | Pokedex |
+| Branch       | main    |
+
+### 2.5 Configuración de build (detectada automáticamente):
+| Campo           | Valor                  |
+| :-------------- | :--------------------- |
+| App location    | `/`                    |
+| Api location    | (vacío)                |
+| Output location | `dist/pokedex-angular` |
+
+## Paso 3: Configuración de routing y seguridad
+
+### 3.1 Archivo  `staticwebapp.config.json`
+
+Creado en la raíz del repositorio para habilitar routing SPA y headers de seguridad:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MDQ5NDc5NywtMTczNTQwMjg1NywtMz
-MyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTIwNTYwOTc2OTQsLTE3MzU0MDI4NTcsLT
+MzMjQ1NTM2M119
 -->
