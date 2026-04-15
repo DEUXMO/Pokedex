@@ -1,7 +1,7 @@
 
 # Proceso Técnico de Despliegue PokeDex Angular
 
-## 📋 Información General
+## Información General
 - **Servicio:** Azure Static Web Apps
 - **Método:** Despliegue con compilación automática (GitHub Actions)
 - **Fecha de despliegue:** 15/04/2026
@@ -90,7 +90,19 @@ Nota: Esto generó la carpeta dist/pokedex-angular/ con los archivos estáticos 
 ### 3.1 Archivo  `staticwebapp.config.json`
 
 Creado en la raíz del repositorio para habilitar routing SPA y headers de seguridad:
+
+
+### 3.2 Propósito de cada header:
+| Header                          | Propósito                                                |
+| :------------------------------ | :------------------------------------------------------- |
+| Content-Security-Policy         | Controla qué recursos puede cargar la app (previene XSS) |
+| Strict-Transport-Security       | Obliga el uso de HTTPS                                   |
+| X-Content-Type-Options: nosniff | Evita la detección automática de tipos de archivo        |
+| X-Frame-Options: DENY           | Evita que la app se muestre en iframes externos          |
+| Referrer-Policy: no-referrer    | Minimiza la fuga de información en cabeceras HTTP        |
+| Permissions-Policy              | Desactiva acceso a geolocalización, micrófono y cámara   |
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTYwOTc2OTQsLTE3MzU0MDI4NTcsLT
-MzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbMjU3MTk2MzU5LC0xNzM1NDAyODU3LC0zMz
+I0NTUzNjNdfQ==
 -->
