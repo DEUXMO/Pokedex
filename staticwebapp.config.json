@@ -1,4 +1,8 @@
 {
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/assets/*", "/*.js", "/*.css", "/*.png", "/*.jpg", "/*.ico", "/*.ttf"]
+  },
   "globalHeaders": {
     "Content-Security-Policy": "default-src 'self' https:; style-src 'self' 'unsafe-inline' https:; script-src 'self' 'unsafe-inline' https:; img-src 'self' https: data:;",
     "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
