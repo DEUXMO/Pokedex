@@ -6,8 +6,8 @@
 - Ser estudiante actual de una institución educativa acreditada
 
 **Verificación realizada:**
-- Correo utilizado: `maurnavarro@utb.edu.co`
-- Dominio verificado: Universidad Tecnológica de Bolívar (UTB)
+- Correo utilizado: `mau@tecnocomfenalco.edu.co`
+- Dominio verificado: Fundación Universitaria Tecnologico Comfenalco
 
 ---
 
@@ -19,18 +19,16 @@
 
 2. **Iniciar sesión:**
    - Seleccionar opción **"Iniciar sesión con correo institucional"**
-   - Ingresar correo: `maurnavarro@utb.edu.co`
+   - Ingresar correo: `mau@tecnocomfenalco.edu.co`
    - Contraseña de la cuenta institucional
-
 ---
-
 ### Paso 3: Completar verificación académica
 
 Microsoft requirió completar un formulario de verificación con los siguientes datos personales:
 
 | Campo | Información ingresada |
 |:---|:---|
-| **Nombre** | Maureth Paola |
+| **Nombre** | Tu nombre |
 | **Apellido** | Navarro Bello |
 | **País o región** | Estados Unidos |
 | **Nombre de la escuela** | Universidad Tecnológica de Bolívar |
@@ -120,6 +118,6 @@ Microsoft requirió completar un formulario de verificación con los siguientes 
 - **Estado de suscripción:** Panel de Azure → Suscripciones
 - **Documentación:** https://docs.microsoft.com/azure/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk5NDI2NTE1LC0yMDg4NzQ2NjEyLDk3MD
-IxMjk2M119
+eyJoaXN0b3J5IjpbLTU4MzM4NDA3MCwtMjA4ODc0NjYxMiw5Nz
+AyMTI5NjNdfQ==
 -->
