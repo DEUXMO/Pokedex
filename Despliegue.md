@@ -101,8 +101,89 @@ Creado en la raíz del repositorio para habilitar routing SPA y headers de segur
 | X-Frame-Options: DENY           | Evita que la app se muestre en iframes externos          |
 | Referrer-Policy: no-referrer    | Minimiza la fuga de información en cabeceras HTTP        |
 | Permissions-Policy              | Desactiva acceso a geolocalización, micrófono y cámara   |
+### 3.3 GitHub Actions Workflow
 
+Azure creó automáticamente el archivo `.github/workflows/azure-static-web-apps-*.yml` que:
+
+-   Se ejecuta en cada push a la rama main
+    
+-   Compila la aplicación Angular
+    
+-   Despliega los archivos estáticos generados
+    
+
+----------
+
+## Paso 4: Obtener URL pública
+
+### 4.1 Despliegue exitoso
+
+-   Tiempo de despliegue inicial: ~5 minutos
+    
+-   Compilación automática: ~3 minutos
+    
+-   Workflow de GitHub Actions: Activo y funcionando
+    
+
+### 4.2 URL generada
+
+**[https://lemon-meadow-025a28c0f7.azurestaticapps.net](https://lemon-meadow-025a28c0f7.azurestaticapps.net/)**
+
+### 4.3 Validación de funcionamiento
+
+-   ✅ Aplicación accesible desde URL pública
+    
+-   ✅ Sin errores 404/500
+    
+-   ✅ Sin errores en consola del navegador
+    
+-   ✅ HTTPS activo
+    
+-   ✅ Navegación SPA funcional (Home ↔ Detalles de Pokémon)
+    
+-   ✅ Búsqueda y filtros operativos
+    
+-   ✅ Imágenes de Pokémon cargando correctamente
+    
+
+----------
+
+## 🔒 Paso 5: Verificación de seguridad
+
+### Escaneo en securityheaders.com
+
+-   **URL escaneada:** [https://lemon-meadow-025a28c0f7.azurestaticapps.net](https://lemon-meadow-025a28c0f7.azurestaticapps.net/)
+    
+-   **Calificación obtenida:** A
+    
+-   **Headers implementados:**
+    
+    -   ✅ Strict-Transport-Security
+        
+    -   ✅ X-Frame-Options
+        
+    -   ✅ X-Content-Type-Options
+        
+    -   ✅ Referrer-Policy
+        
+    -   ✅ Content-Security-Policy
+        
+    -   ✅ Permissions-Policy
+        
+
+### Nota sobre calificación A+
+
+La calificación A+ requiere eliminar `'unsafe-inline'` de `script-src`. Sin embargo, Angular necesita esta directiva para:
+
+-   Templates inline compilados
+    
+-   Bootstrapping de la aplicación
+    
+-   Routing dinámico
+    
+
+**Decisión técnica:** Se priorizó la funcionalidad completa de la aplicación (calificación A) sobre la calificación máxima (A+) que habría roto la experiencia del usuario.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3MTk2MzU5LC0xNzM1NDAyODU3LC0zMz
-I0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbMTIxMjU4OTM2NiwtMTczNTQwMjg1NywtMz
+MyNDU1MzYzXX0=
 -->
