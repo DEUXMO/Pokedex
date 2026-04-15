@@ -6,7 +6,7 @@ export const environment = {
   homePokeApi: 'https://pokeapi.co/',
   keilerLinkedin: 'https://www.linkedin.com/in/keilermora/',
   pokedexGithub: 'https://github.com/keilermora/pokedex-angular',
-  imagesPath: '/assets/images',
+ imagesPath: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork',
   language: 'en',
   languageId: 9,
 };
