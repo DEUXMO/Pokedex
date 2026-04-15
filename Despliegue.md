@@ -171,9 +171,16 @@ Azure creó automáticamente el archivo `.github/workflows/azure-static-web-apps
     -   ✅ Permissions-Policy
         
 ## Posibles errores y soluciones
+| Error                         | Causa                    | Solución                                                           |
+| :---------------------------- | :----------------------- | :----------------------------------------------------------------- |
+| 404 en rutas de Angular       | Falta navigationFallback | Agregar `staticwebapp.config.json` con rewrite a index.html        |
+| Recursos no cargan            | CSP restrictivo          | Ajustar CSP para permitir fuentes de imágenes y APIs externas      |
+| Imágenes de Pokémon no cargan | img-src restrictivo      | Agregar <https://raw.githubusercontent.com> y <https://pokeapi.co> |
+| Build falla en GitHub Actions | Error en package.json    | Verificar que todas las dependencias estén en package.json         |
+| Despliegue no se actualiza    | Workflow fallando        | Revisar logs en GitHub → Actions                                   |
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDYyOTM1NTYsLTE3MzU0MDI4NTcsLT
-MzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbLTgyOTAzODU4NCwtMTczNTQwMjg1NywtMz
+MyNDU1MzYzXX0=
 -->
