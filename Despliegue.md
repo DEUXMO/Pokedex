@@ -170,9 +170,10 @@ Azure creó automáticamente el archivo `.github/workflows/azure-static-web-apps
         
     -   ✅ Permissions-Policy
         
+## Posibles errores y soluciones
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1MzEzODYsLTE3MzU0MDI4NTcsLTMzMj
-Q1NTM2M119
+eyJoaXN0b3J5IjpbLTEzNDYyOTM1NTYsLTE3MzU0MDI4NTcsLT
+MzMjQ1NTM2M119
 -->
