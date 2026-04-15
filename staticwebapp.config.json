@@ -1,20 +1,7 @@
 {
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude": [
-      "/assets/*",
-      "/*.css",
-      "/*.js",
-      "/*.png",
-      "/*.jpg",
-      "/*.jpeg",
-      "/*.gif",
-      "/*.svg",
-      "/*.ico",
-      "/*.woff",
-      "/*.woff2",
-      "/*.ttf"
-    ]
+    "exclude": ["/assets/*", "/*.css", "/*.js", "/*.png", "/*.jpg", "/*.jpeg", "/*.gif", "/*.svg", "/*.ico", "/*.woff", "/*.woff2", "/*.ttf"]
   },
   "globalHeaders": {
     "X-Content-Type-Options": "nosniff",
@@ -22,6 +9,6 @@
     "Referrer-Policy": "no-referrer",
     "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
     "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
-    "Content-Security-Policy": "default-src 'self' https:; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' https: data:; font-src 'self' https: data:; connect-src 'self' https://pokeapi.co https://*.pokeapi.co; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+    "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https://raw.githubusercontent.com https://pokeapi.co data:; font-src 'self' data:; connect-src 'self' https://pokeapi.co https://*.pokeapi.co; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
   }
 }
