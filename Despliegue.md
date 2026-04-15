@@ -90,7 +90,35 @@ Nota: Esto generó la carpeta dist/pokedex-angular/ con los archivos estáticos 
 ### 3.1 Archivo  `staticwebapp.config.json`
 
 Creado en la raíz del repositorio para habilitar routing SPA y headers de seguridad:
-
+`
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": [
+      "/assets/*",
+      "/*.css",
+      "/*.js",
+      "/*.png",
+      "/*.jpg",
+      "/*.jpeg",
+      "/*.gif",
+      "/*.svg",
+      "/*.ico",
+      "/*.woff",
+      "/*.woff2",
+      "/*.ttf"
+    ]
+  },
+  "globalHeaders": {
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "Referrer-Policy": "no-referrer",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+    "Content-Security-Policy": "default-src 'self' https:; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' https: data:; font-src 'self' https: data:; connect-src 'self' https://pokeapi.co https://*.pokeapi.co; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+  }
+}
+`
 
 ### 3.2 Propósito de cada header:
 | Header                          | Propósito                                                |
@@ -101,6 +129,7 @@ Creado en la raíz del repositorio para habilitar routing SPA y headers de segur
 | X-Frame-Options: DENY           | Evita que la app se muestre en iframes externos          |
 | Referrer-Policy: no-referrer    | Minimiza la fuga de información en cabeceras HTTP        |
 | Permissions-Policy              | Desactiva acceso a geolocalización, micrófono y cámara   |
+
 ### 3.3 GitHub Actions Workflow
 
 Azure creó automáticamente el archivo `.github/workflows/azure-static-web-apps-*.yml` que:
@@ -181,6 +210,7 @@ Azure creó automáticamente el archivo `.github/workflows/azure-static-web-apps
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODcyODk2MiwyMDM4NzI4OTYyLC04Mj
-kwMzg1ODQsLTE3MzU0MDI4NTcsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbMTYxNDgyMDY4NiwyMDM4NzI4OTYyLDIwMz
+g3Mjg5NjIsLTgyOTAzODU4NCwtMTczNTQwMjg1NywtMzMyNDU1
+MzYzXX0=
 -->
