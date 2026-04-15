@@ -148,7 +148,7 @@ Azure creó automáticamente el archivo `.github/workflows/azure-static-web-apps
 
 ----------
 
-## 🔒 Paso 5: Verificación de seguridad
+## Paso 5: Verificación de seguridad
 
 ### Escaneo en securityheaders.com
 
@@ -171,19 +171,8 @@ Azure creó automáticamente el archivo `.github/workflows/azure-static-web-apps
     -   ✅ Permissions-Policy
         
 
-### Nota sobre calificación A+
 
-La calificación A+ requiere eliminar `'unsafe-inline'` de `script-src`. Sin embargo, Angular necesita esta directiva para:
-
--   Templates inline compilados
-    
--   Bootstrapping de la aplicación
-    
--   Routing dinámico
-    
-
-**Decisión técnica:** Se priorizó la funcionalidad completa de la aplicación (calificación A) sobre la calificación máxima (A+) que habría roto la experiencia del usuario.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjU4OTM2NiwtMTczNTQwMjg1NywtMz
-MyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbODE1MzEzODYsLTE3MzU0MDI4NTcsLTMzMj
+Q1NTM2M119
 -->
