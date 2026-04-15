@@ -34,3 +34,7 @@ npm start
 - [Font Awesome](https://fontawesome.com/): The web's most popular icon set and toolkit.
 - [Normalize.css](https://necolas.github.io/normalize.css/): A modern, HTML5-ready alternative to CSS resets.
 - [PokéAPI](https://pokeapi.co/): The RESTful Pokémon API.
+
+
+
+https://lemon-meadow-025a28c0f.7.azurestaticapps.net/
