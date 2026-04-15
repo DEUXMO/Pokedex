@@ -16,20 +16,20 @@ Se subió el código fuente completo de la aplicación Angular desarrollada por 
 
 # Estructura 
 
-Pokedex/ 
-├── .github/workflows/ (Workflow de GitHub Actions) 
-├── src/ (Código fuente Angular) 
-│ ├── app/ 
-│ ├── assets/ 
-│ └── environments/ 
-├── angular.json (Configuración de Angular) 
-├── package.json (Dependencias del proyecto) 
-├── package-lock.json 
-├── tsconfig.json (Configuración TypeScript) 
-├── .gitignore 
-├── staticwebapp.config.json (Configuración Azure) 
-├── README.md 
-└── Despliegue.md
+Pokedex/  
+├── .github/workflows/ (Workflow de GitHub Actions)   
+├── src/ (Código fuente Angular)   
+│ ├── app/   
+│ ├── assets/   
+│ └── environments/   
+├── angular.json (Configuración de Angular)   
+├── package.json (Dependencias del proyecto)   
+├── package-lock.json   
+├── tsconfig.json (Configuración TypeScript)   
+├── .gitignore   
+├── staticwebapp.config.json (Configuración Azure)   
+├── README.md   
+└── Despliegue.md  
 
 ### Compilación automática
 Azure Static Web Apps detectó automáticamente que es un proyecto Angular y ejecutó:
@@ -181,6 +181,6 @@ Azure creó automáticamente el archivo `.github/workflows/azure-static-web-apps
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTAzODU4NCwtMTczNTQwMjg1NywtMz
-MyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbMjAzODcyODk2MiwtODI5MDM4NTg0LC0xNz
+M1NDAyODU3LC0zMzI0NTUzNjNdfQ==
 -->
