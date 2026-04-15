@@ -34,11 +34,11 @@ Pokedex/
 ### Compilación automática
 Azure Static Web Apps detectó automáticamente que es un proyecto Angular y ejecutó:
 
-```bashS
+```bashs
 npm install
 npm run build
 Nota: Esto generó la carpeta dist/pokedex-angular/ con los archivos estáticos compilados.
-
+```
 ## Paso 2: Crear Static Web App en Azure Portal
 
 ### 2.1 Acceso al portal
@@ -60,7 +60,15 @@ Nota: Esto generó la carpeta dist/pokedex-angular/ con los archivos estáticos 
     
 
 ### 2.3 Configuración básica:
+| Campo          | Valor              |
+| :------------- | :----------------- |
+| Subscription   | Azure for Students |
+| Resource Group | arp-group          |
+| Name           | pokedex            |
+| Region         | westeurope         |
+| Plan           | Free               |
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MTMxMzYzLC0xNzM1NDAyODU3LC0zMz
-I0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbMTYwNzQ3NDU1NSwtMTczNTQwMjg1NywtMz
+MyNDU1MzYzXX0=
 -->
