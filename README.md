@@ -28,12 +28,12 @@ Microsoft requirió completar un formulario de verificación con los siguientes 
 
 | Campo | Información ingresada |
 |:---|:---|
-| **Nombre** | Tu nombre |
-| **Apellido** | Navarro Bello |
-| **País o región** | Estados Unidos |
-| **Nombre de la escuela** | Universidad Tecnológica de Bolívar |
+| **Nombre** | Tus nombre |
+| **Apellido** | Tus apellidos |
+| **País o región** | País donde vives |
+| **Nombre de la escuela** | Fundación Universitaria Tecnologico Comfenalco |
 | **Fecha de nacimiento** | [Fecha según registros escolares] |
-| **Correo electrónico educativo** | maurnavarro@utb.edu.co |
+| **Correo electrónico educativo** | `mau@tecnocomfenalco.edu.co` |
 
 **Proceso de validación:**
 1. Ingreso de nombre y apellido según registros escolares oficiales
@@ -118,6 +118,6 @@ Microsoft requirió completar un formulario de verificación con los siguientes 
 - **Estado de suscripción:** Panel de Azure → Suscripciones
 - **Documentación:** https://docs.microsoft.com/azure/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MzM4NDA3MCwtMjA4ODc0NjYxMiw5Nz
+eyJoaXN0b3J5IjpbMTQwNTUxNDY2NiwtMjA4ODc0NjYxMiw5Nz
 AyMTI5NjNdfQ==
 -->
