@@ -60,6 +60,7 @@ Nota: Esto generó la carpeta dist/pokedex-angular/ con los archivos estáticos 
     
 
 ### 2.3 Configuración básica:
+
 | Campo          | Valor              |
 | :------------- | :----------------- |
 | Subscription   | Azure for Students |
@@ -69,6 +70,6 @@ Nota: Esto generó la carpeta dist/pokedex-angular/ con los archivos estáticos 
 | Plan           | Free               |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNzQ3NDU1NSwtMTczNTQwMjg1NywtMz
+eyJoaXN0b3J5IjpbMTI3MDQ5NDc5NywtMTczNTQwMjg1NywtMz
 MyNDU1MzYzXX0=
 -->
