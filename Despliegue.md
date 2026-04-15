@@ -17,7 +17,7 @@ Se subió el código fuente completo de la aplicación Angular desarrollada por 
 # Estructura 
 
 Pokedex/  
-├── .github/workflows/ (Workflow de GitHub Actions)   
+├── .github/workflows/ <-(Workflow de GitHub Actions)   
 ├── src/ (Código fuente Angular)   
 │ ├── app/   
 │ ├── assets/   
@@ -181,6 +181,6 @@ Azure creó automáticamente el archivo `.github/workflows/azure-static-web-apps
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODcyODk2MiwtODI5MDM4NTg0LC0xNz
-M1NDAyODU3LC0zMzI0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbNTU0NjYwMzM5LDIwMzg3Mjg5NjIsLTgyOT
+AzODU4NCwtMTczNTQwMjg1NywtMzMyNDU1MzYzXX0=
 -->
